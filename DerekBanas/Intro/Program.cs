@@ -11,7 +11,7 @@ namespace MyApp
             Console.WriteLine("Added forth console!");
             Console.WriteLine("Added fifth console.");
             Console.WriteLine("Update from main.");
-            Console.WriteLine("Reset branch to a previous state.");
+            Console.WriteLine("Reset branch to a previous stateee.");
         }
     }
 }
