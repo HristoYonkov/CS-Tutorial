@@ -11,7 +11,7 @@ namespace MyApp
             Console.WriteLine("Added forth console!");
             Console.WriteLine("Added fifth console.");
             Console.WriteLine("Update from main.");
-            Console.WriteLine("This should not appear!");
+            Console.WriteLine("This this is a conflict!");
         }
     }
 }
