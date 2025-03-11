@@ -72,8 +72,8 @@ namespace MyApp
 
             StringBuilder sb = new StringBuilder("Some text.");
             StringBuilder sb2 = new StringBuilder("More stuff that is very important", 256);
-            Console.WriteLine("Capacity: " sb2.Capacity);
-            Console.WriteLine("length: " sb2.Length);
+            Console.WriteLine("Capacity: {0}", sb2.Capacity);
+            Console.WriteLine("Length: {0}", sb2.Length);
             sb2.AppendLine("\nMore important text");
             CultureInfo enUS = CultureInfo.CreateSpecificCulture("en-US");
             string bestCust = "Bob Smith";
