@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Globalization;
-using System.Text;
+using System.Globalization; // This is for CultureInfo.
+using System.Text; // This is for using Stringbuilders for efficient string operations.
 
 namespace MyApp
 {
