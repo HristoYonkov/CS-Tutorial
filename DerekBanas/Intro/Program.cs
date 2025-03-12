@@ -36,7 +36,7 @@ namespace MyApp
             //Console.ReadLine();
 
             // "do while" loop example..
-//---------------------------------------------------------------------------------
+            //---------------------------------------------------------------------------------
 
             // Exeption handling..
 
@@ -66,30 +66,47 @@ namespace MyApp
             //Console.ReadLine();
 
             // Exeption handling..
-//-------------------------------------------------------------------------------------------
+            //-------------------------------------------------------------------------------------------
 
             //String builders..
 
-            StringBuilder sb = new StringBuilder("Some text.");
-            StringBuilder sb2 = new StringBuilder("More stuff that is very important", 256);
-            Console.WriteLine("Capacity: {0}", sb2.Capacity);
-            Console.WriteLine("Length: {0}", sb2.Length);
-            sb2.AppendLine("\nMore important text");
-            CultureInfo enUS = CultureInfo.CreateSpecificCulture("en-US");
-            string bestCust = "Bob Smith";
-            sb2.AppendFormat(enUS, $"Best customer: {bestCust}");
-            Console.WriteLine(sb2.ToString());
-            sb2.Replace("text", "characters");
-            Console.WriteLine(sb2.ToString());
-            sb2.Clear();
-            sb2.Append("Random Text");
-            Console.WriteLine(sb.Equals(sb2));
-            sb2.Insert(11, " that's great");
-            Console.WriteLine(sb2.ToString());
-            sb2.Remove(11, 7);
-            Console.WriteLine(sb2.ToString());
+            //StringBuilder sb = new StringBuilder("Some text.");
+            //StringBuilder sb2 = new StringBuilder("More stuff that is very important", 256);
+            //Console.WriteLine("Capacity: {0}", sb2.Capacity);
+            //Console.WriteLine("Length: {0}", sb2.Length);
+            //sb2.AppendLine("\nMore important text");
+            //CultureInfo enUS = CultureInfo.CreateSpecificCulture("en-US");
+            //string bestCust = "Bob Smith";
+            //sb2.AppendFormat(enUS, $"Best customer: {bestCust}");
+            //Console.WriteLine(sb2.ToString());
+            //sb2.Replace("text", "characters");
+            //Console.WriteLine(sb2.ToString());
+            //sb2.Clear();
+            //sb2.Append("Random Text");
+            //Console.WriteLine(sb.Equals(sb2));
+            //sb2.Insert(11, " that's great");
+            //Console.WriteLine(sb2.ToString());
+            //sb2.Remove(11, 7);
+            //Console.WriteLine(sb2.ToString());
 
             //String builders..
+            //-------------------------------------------------------------------------------------------
+
+            // Datetime timespans..
+
+            DateTime awesomeDate = new DateTime(1990, 04, 28);
+            Console.WriteLine("Day of week : {0}", awesomeDate.DayOfWeek);
+            awesomeDate = awesomeDate.AddDays(2);
+            awesomeDate = awesomeDate.AddMonths(1);
+            awesomeDate = awesomeDate.AddYears(1);
+            Console.WriteLine("New Date : {0}", awesomeDate.Date);
+
+            TimeSpan lunchTime = new TimeSpan(12, 30, 00);
+            lunchTime = lunchTime.Subtract(new TimeSpan(0, 15, 0));
+            Console.WriteLine("New Time : {0}", lunchTime);
+
+            // Datetime timespans..
+
         }
     }
 }
