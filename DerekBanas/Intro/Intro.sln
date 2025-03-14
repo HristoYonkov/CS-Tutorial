@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAndQueues", "..\StackA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimensionalaArrays", "..\MultiDimensionalaArrays\MultiDimensionalaArrays.csproj", "{4D6FF9B9-B9ED-42DA-A107-F56D3BD241BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetsAndDictionaries", "..\Sets and Dictionaries\SetsAndDictionaries.csproj", "{5EAD60BA-F20C-4CB8-ADA6-9FD799E39462}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4D6FF9B9-B9ED-42DA-A107-F56D3BD241BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D6FF9B9-B9ED-42DA-A107-F56D3BD241BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D6FF9B9-B9ED-42DA-A107-F56D3BD241BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAD60BA-F20C-4CB8-ADA6-9FD799E39462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAD60BA-F20C-4CB8-ADA6-9FD799E39462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAD60BA-F20C-4CB8-ADA6-9FD799E39462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAD60BA-F20C-4CB8-ADA6-9FD799E39462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
