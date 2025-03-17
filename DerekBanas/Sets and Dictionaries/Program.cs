@@ -23,6 +23,23 @@ namespace MyApp
                 Console.WriteLine(item);
             }
             // We also have ContainsValue() method but it is a very slow operation, so we may want to avoid this if we can.
+
+            //--------------------------------------------------
+            // HashSet<T> and SortedSet<T> allowing only unique values!
+            HashSet<string> set = new HashSet<string>();
+            //var set = new HashSet<string>();
+            set.Add("Peter");
+            set.Add("Peter"); // Not added again
+            set.Add("George");
+            foreach (var item in set)
+            {
+                Console.WriteLine(item);
+            }
+            set.Remove("Peter");
+            if (set.Contains("George")) // search for a value in set
+            {
+                Console.WriteLine("Yes");
+            }
         }
     }
 }
