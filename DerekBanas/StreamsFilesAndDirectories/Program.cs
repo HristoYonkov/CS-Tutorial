@@ -30,7 +30,7 @@ namespace MyApp
             //ReaderWriterLock exact values
             byte[] read = new byte[2];
             fileStreamRead.Seek(2, SeekOrigin.Begin); // Set pointer at the third position of the array.
-            fileStreamRead.Read(read, 0, 2); // Will read "ll"
+            fileStreamRead.Read(read, 0, 2); // Will read "ll".
         }
     }
 }
